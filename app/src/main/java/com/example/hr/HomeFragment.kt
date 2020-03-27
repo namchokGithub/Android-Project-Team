@@ -81,7 +81,7 @@ class HomeFragment : Fragment() {
         }
 
         btn_education.setOnClickListener{
-            load_fragment = EducationFragment()
+            load_fragment = EducationFragment().newInstance(account_username)
             transaction.setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left)
             transaction.replace(R.id.contentContainer, load_fragment,"fragment_education")
             transaction.addToBackStack("fragment_education")
@@ -108,7 +108,7 @@ class HomeFragment : Fragment() {
         // ---------------------------------------------------------------------------- //
 
         btn_expertise.setOnClickListener{
-            load_fragment = ExpertiseFragment()
+            load_fragment = ExpertiseFragment().newInstance(account_username)
             transaction.setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left)
             transaction.replace(R.id.contentContainer, load_fragment,"fragment_expertise")
             transaction.addToBackStack("fragment_expertise")
