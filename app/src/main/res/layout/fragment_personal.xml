@@ -24,6 +24,7 @@
         android:id="@+id/view_title_personal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/kanit"
         android:text="@string/personal_info"
         android:textColor="#fff"
         android:textSize="36sp"
@@ -39,6 +40,7 @@
         android:id="@+id/scroll1"
         android:layout_width="360dp"
         android:layout_height="538dp"
+        android:background="@drawable/radius"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +52,7 @@
             android:id="@+id/linearLayout_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="@drawable/radius"
             android:orientation="vertical">
 
             <LinearLayout
@@ -64,6 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kanit"
                     android:text="@string/work_in"
                     android:textSize="20sp" />
 
@@ -74,6 +77,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/input"
+                    android:fontFamily="@font/kanit"
                     android:padding="5dp"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -89,6 +93,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kanit"
                     android:text="@string/prefix"
                     android:textSize="20sp" />
 
@@ -98,7 +103,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/input"
+                    android:background="@drawable/select_input"
+                    android:fontFamily="@font/kanit"
                     android:padding="5dp"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -109,6 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/name"
                 android:textSize="20sp" />
 
@@ -120,6 +127,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -129,6 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/lastname"
                 android:textSize="20sp" />
 
@@ -140,6 +149,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -154,6 +164,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kanit"
                     android:text="@string/prefix_eng"
                     android:textSize="20sp" />
 
@@ -163,7 +174,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/input"
+                    android:background="@drawable/select_input"
+                    android:fontFamily="@font/kanit"
                     android:padding="5dp"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -174,6 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/first_name_eng"
                 android:textSize="20sp" />
 
@@ -185,6 +198,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -194,6 +208,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/last_name_eng"
                 android:textSize="20dp" />
 
@@ -205,6 +220,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -214,6 +230,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/nickname"
                 android:textSize="20sp" />
 
@@ -225,6 +242,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -234,6 +252,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/nickname_eng"
                 android:textSize="20sp" />
 
@@ -245,6 +264,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -256,7 +276,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/submit_btn"
+                android:background="@drawable/btn_goto"
+                android:fontFamily="@font/kanit"
                 android:text="ถัดไป"
                 android:textColor="#fff" />
         </LinearLayout>
@@ -266,6 +287,7 @@
         android:id="@+id/scroll2"
         android:layout_width="360dp"
         android:layout_height="538dp"
+        android:background="@drawable/radius"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -277,7 +299,7 @@
             android:id="@+id/linearLayout_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="@drawable/radius"
             android:orientation="vertical">
 
             <TextView
@@ -286,6 +308,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/gender"
                 android:textSize="20sp" />
 
@@ -298,6 +321,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -307,6 +331,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/province"
                 android:textSize="20sp" />
 
@@ -319,6 +344,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -328,6 +354,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/dob"
                 android:textSize="20sp" />
 
@@ -340,6 +367,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -349,6 +377,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/blood_type"
                 android:textSize="20sp" />
 
@@ -361,6 +390,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -370,6 +400,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/religion"
                 android:textSize="20sp" />
 
@@ -382,6 +413,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -391,6 +423,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/nationality"
                 android:textSize="20sp" />
 
@@ -403,6 +436,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -412,6 +446,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/race"
                 android:textSize="20sp" />
 
@@ -424,6 +459,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -433,6 +469,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/kanit"
                 android:text="@string/maritual_status"
                 android:textSize="20sp" />
 
@@ -445,6 +482,7 @@
                 android:autofillHints=""
                 android:background="@drawable/input"
                 android:ems="10"
+                android:fontFamily="@font/kanit"
                 android:padding="10dp"
                 android:text="" />
 
@@ -460,7 +498,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:layout_marginEnd="24dp"
-                    android:background="@drawable/submit_btn"
+                    android:background="@drawable/btn_goto"
+                    android:fontFamily="@font/kanit"
                     android:text="@string/next"
                     android:textColor="#fff"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -474,7 +513,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:layout_marginStart="24dp"
-                    android:background="@drawable/submit_btn"
+                    android:background="@drawable/btn_goto"
+                    android:fontFamily="@font/kanit"
                     android:text="@string/back"
                     android:textColor="#fff"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -491,7 +531,7 @@
         android:id="@+id/linearLayout_3"
         android:layout_width="360dp"
         android:layout_height="481dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/radius"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -507,6 +547,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/citizen_id"
             android:textSize="20sp" />
 
@@ -519,6 +560,7 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
             android:padding="10dp"
             android:text=""
@@ -530,6 +572,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/passport_id"
             android:textSize="20sp" />
 
@@ -542,6 +585,7 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
             android:padding="10dp"
             android:text=""
@@ -553,6 +597,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/tax_id"
             android:textSize="20sp" />
 
@@ -565,6 +610,7 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
             android:padding="10dp"
             android:text=""
@@ -576,6 +622,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/bank_name"
             android:textSize="20sp" />
 
@@ -588,6 +635,7 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
             android:padding="10dp"
             android:text=""
@@ -599,6 +647,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/bank_id"
             android:textSize="20sp" />
 
@@ -611,6 +660,7 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
             android:padding="10dp"
             android:text=""
@@ -627,7 +677,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginEnd="24dp"
-                android:background="@drawable/submit_btn"
+                android:background="@drawable/btn_goto"
+                android:fontFamily="@font/kanit"
                 android:text="@string/next"
                 android:textColor="#fff"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -641,7 +692,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_marginStart="24dp"
-                android:background="@drawable/submit_btn"
+                android:background="@drawable/btn_goto"
+                android:fontFamily="@font/kanit"
                 android:text="@string/back"
                 android:textColor="#fff"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -656,15 +708,15 @@
     <LinearLayout
         android:id="@+id/linearLayout_4"
         android:layout_width="360dp"
-        android:layout_height="547dp"
-        android:background="#FFFFFF"
+        android:layout_height="543dp"
+        android:background="@drawable/radius"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/email"
@@ -672,6 +724,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/email"
             android:textSize="20sp" />
 
@@ -684,8 +737,9 @@
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor,TextFields" />
 
@@ -694,7 +748,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/facebook"
             android:textSize="20sp" />
 
@@ -703,12 +758,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor" />
 
@@ -717,7 +774,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/twitter"
             android:textSize="20sp" />
 
@@ -726,12 +784,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor" />
 
@@ -740,7 +800,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/website"
             android:textSize="20sp" />
 
@@ -749,12 +810,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor" />
 
@@ -763,7 +826,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/motto"
             android:textSize="20sp" />
 
@@ -772,12 +836,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor" />
 
@@ -786,7 +852,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit"
             android:text="@string/interest_in"
             android:textSize="20sp" />
 
@@ -795,12 +862,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
             android:autofillHints=""
             android:background="@drawable/input"
             android:ems="10"
+            android:fontFamily="@font/kanit"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="8dp"
             android:text=""
             tools:ignore="LabelFor" />
 
@@ -813,7 +882,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/submit_btn"
+            android:background="@drawable/btn_goto"
+            android:fontFamily="@font/kanit"
             android:text="@string/back"
             android:textColor="#fff"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -827,8 +897,11 @@
         android:layout_width="360dp"
         android:layout_height="40dp"
         android:background="@drawable/submit_btn"
+        android:fontFamily="@font/kanit"
         android:text="@string/save"
         android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
