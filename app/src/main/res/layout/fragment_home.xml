@@ -36,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84" />
+        app:layout_constraintVertical_bias="0.729" />
 
     <Button
         android:id="@+id/view_btn_address"
@@ -54,21 +54,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455" />
 
-    <Button
-        android:id="@+id/view_btn_license"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_rounded_main_menu"
-        android:foregroundGravity="center_horizontal"
-        android:gravity="center"
-        android:text="@string/Professional_license"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+<!--    <Button-->
+<!--        android:id="@+id/view_btn_license"-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/btn_rounded_main_menu"-->
+<!--        android:foregroundGravity="center_horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/Professional_license"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.516"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.645" />-->
 
     <Button
         android:id="@+id/view_btn_membership"
@@ -84,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.644" />
 
     <Button
         android:id="@+id/view_btn_work"
@@ -97,10 +97,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.821" />
 
     <Button
         android:id="@+id/view_btn_education"
